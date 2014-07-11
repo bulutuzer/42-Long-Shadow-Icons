@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*
+* Symbolset
+* www.symbolset.com
+* Copyright © 2013 Oak Studios LLC
+*
+* Upload this file to your web server
+* and place this within your <head> tags.
+* <link href="webfonts/ss-social-regular.css" rel="stylesheet" />
+*/
+
+@font-face {
+  font-family: "SSSocialRegular";
+  src: url('ss-social-regular.eot');
+  src: url('ss-social-regular.eot?#iefix') format('embedded-opentype'),
+       url('ss-social-regular.woff') format('woff'),
+       url('ss-social-regular.ttf')  format('truetype'),
+       url('ss-social-regular.svg#SSSocialRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* This triggers a redraw in IE to Fix IE8's :before content rendering. */
+html:hover [class^="so-"]{-ms-zoom: 1;}
+
+.so-icon, .so-icon.so-social-regular,
+[class^="so-"]:before, [class*=" so-"]:before,
+[class^="so-"].so-social-regular:before, [class*=" so-"].so-social-regular:before,
+[class^="so-"].right:after, [class*=" so-"].right:after,
+[class^="so-"].so-social-regular.right:after, [class*=" so-"].so-social-regular.right:after {
+  font-family: "SSSocialRegular";
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: none;
+  text-rendering: optimizeLegibility;
+  white-space: nowrap;
+  /*-webkit-font-feature-settings: "liga"; Currently broken in Chrome >= v22. Falls back to text-rendering. Safari is unaffected. */
+  -moz-font-feature-settings: "liga=1";
+  -moz-font-feature-settings: "liga";
+  -ms-font-feature-settings: "liga" 1;
+  -o-font-feature-settings: "liga";
+  font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+[class^="so-"].right:before,
+[class*=" so-"].right:before{display:none;content:'';}
+
+.so-facebook:before,.so-facebook.right:after{content:''}.so-twitter:before,.so-twitter.right:after{content:''}.so-linkedin:before,.so-linkedin.right:after{content:''}.so-googleplus:before,.so-googleplus.right:after{content:''}.so-appdotnet:before,.so-appdotnet.right:after{content:''}.so-zerply:before,.so-zerply.right:after{content:''}.so-reddit:before,.so-reddit.right:after{content:''}.so-steam:before,.so-steam.right:after{content:''}.so-tumblr:before,.so-tumblr.right:after{content:''}.so-wordpress:before,.so-wordpress.right:after{content:''}.so-blogger:before,.so-blogger.right:after{content:''}.so-posterous:before,.so-posterous.right:after{content:''}.so-quora:before,.so-quora.right:after{content:''}.so-youtube:before,.so-youtube.right:after{content:''}.so-vimeo:before,.so-vimeo.right:after{content:''}.so-vine:before,.so-vine.right:after{content:''}.so-letterboxd:before,.so-letterboxd.right:after{content:''}.so-flickr:before,.so-flickr.right:after{content:''}.so-instagram:before,.so-instagram.right:after{content:''}.so-500px:before,.so-500px.right:after{content:''}.so-etsy:before,.so-etsy.right:after{content:''}.so-pinterest:before,.so-pinterest.right:after{content:''}.so-svpply:before,.so-svpply.right:after{content:''}.so-readmill:before,.so-readmill.right:after{content:''}.so-dropbox:before,.so-dropbox.right:after{content:''}.so-pinboard:before,.so-pinboard.right:after{content:''}.so-delicious:before,.so-delicious.right:after{content:''}.so-dribbble:before,.so-dribbble.right:after{content:''}.so-behance:before,.so-behance.right:after{content:''}.so-github:before,.so-github.right:after{content:''}.so-octocat:before,.so-octocat.right:after{content:''}.so-stackoverflow:before,.so-stackoverflow.right:after{content:''}.so-paypal:before,.so-paypal.right:after{content:''}.so-kickstarter:before,.so-kickstarter.right:after{content:''}.so-foursquare:before,.so-foursquare.right:after{content:''}.so-yelp:before,.so-yelp.right:after{content:''}.so-skype:before,.so-skype.right:after{content:''}.so-rdio:before,.so-rdio.right:after{content:''}.so-spotify:before,.so-spotify.right:after{content:''}.so-lastfm:before,.so-lastfm.right:after{content:''}.so-soundcloud:before,.so-soundcloud.right:after{content:''}.so-link:before,.so-link.right:after{content:'🔗'}.so-phone:before,.so-phone.right:after{content:'📞'}.so-mail:before,.so-mail.right:after{content:'✉'}.so-like:before,.so-like.right:after{content:'👍'}.so-rss:before,.so-rss.right:after{content:''}.so-share:before,.so-share.right:after{content:''}.so-apple:before,.so-apple.right:after{content:''}.so-microsoft:before,.so-microsoft.right:after{content:''}.so-windows:before,.so-windows.right:after{content:''}.so-android:before,.so-android.right:after{content:''}.so-blackberry:before,.so-blackberry.right:after{content:''}
+
+/* Legacy */
+.so-fivehundredpx:before,.so-fivehundredpx.right:after{content:''}
